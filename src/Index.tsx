@@ -11,7 +11,7 @@ const TodoAppComponent = connect(
     (dispatch: Dispatch<any>) => {return {actions: new Dispatcher(dispatch)}}
 )(Components)
 
-export default class App extends Component<{}, {}> {
+export default class Index extends Component<{}, {}> {
     render() {
         return (
             <Provider store={store}>
